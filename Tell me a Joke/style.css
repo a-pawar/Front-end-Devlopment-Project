@@ -1,0 +1,26 @@
+
+body {
+  /* The image used */
+  background-image: url("final.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#id1 {
+  font-size: 40px;
+  color: aqua;
+  /* justify-content: center; */
+  margin-top: 40px;
+
+  background-color: black;
+  border: 3px solid rgb(0, 0, 0);
+  padding: 4px;
+  /* padding: 10px; */
+  text-align: center;
+}
