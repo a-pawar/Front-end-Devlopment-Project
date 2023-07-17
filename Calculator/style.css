@@ -1,0 +1,88 @@
+.outer {
+  background-color: rgb(201, 204, 209);
+  height: 60vh;
+  width: 40vw;
+  border-radius: 5px;
+  margin-left: 28vw;
+  margin-top: 15vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#calculatorText {
+  background-color: black;
+  color: rgb(240, 235, 235);
+  height: 5vh;
+  width: 30vw;
+  border-radius: 2px;
+  /* position: absolute; */
+  margin-left: 5vw;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  text-align: center;
+  padding: 1.5vh;
+  font-weight: bolder;
+  font-size: x-large;
+}
+
+#input {
+  height: 10vh;
+  width: 37vw;
+  border-radius: 2px;
+  background-color: rgb(240, 235, 235);
+  margin-left: 1.5vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bolder;
+  font-size: x-large;
+  padding: 0;
+
+
+
+
+
+}
+
+#pad {
+  height: 60vh;
+  width: 40vw;
+  /* background-color: aqua; */
+}
+
+#pad table {
+  height: 25vh;
+  width: 37vw;
+  border-radius: 2px;
+  /* position: absolute; */
+  margin-left: 1.5vw;
+  margin-bottom: 1vh;
+  margin-top: 2vh;
+
+}
+
+#pad table tr td button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  font-size: larger;
+  border: none;
+  padding: 0;
+  background: none;
+  width: 140px;
+  height: 35px;
+}
+
+#pad table tr td {
+  background-color: rgb(240, 235, 235);
+}
+
+#myname {
+  font-weight: bold;
+  font-size: larger;
+  /* margin: auto; */
+  display: flex;
+  justify-content: center;
+  margin-left: 25vw;
+}
